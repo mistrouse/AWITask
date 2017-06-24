@@ -22,27 +22,34 @@ import play.mvc.Http.Context.Implicit._
 import play.data._
 import play.core.j.PlayFormsMagicForJava._
 
-object index extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,_root_.play.twirl.api.Format[play.twirl.api.HtmlFormat.Appendable]](play.twirl.api.HtmlFormat) with _root_.play.twirl.api.Template0[play.twirl.api.HtmlFormat.Appendable] {
+object index extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,_root_.play.twirl.api.Format[play.twirl.api.HtmlFormat.Appendable]](play.twirl.api.HtmlFormat) with _root_.play.twirl.api.Template1[String,play.twirl.api.HtmlFormat.Appendable] {
 
-  /**/
-  def apply/*1.2*/():play.twirl.api.HtmlFormat.Appendable = {
+  /*
+ * This template takes a single argument, a String containing a
+ * message to display.
+ */
+  def apply/*5.2*/(message: String):play.twirl.api.HtmlFormat.Appendable = {
     _display_ {
       {
 
 
-Seq[Any](format.raw/*1.4*/("""
+Seq[Any](format.raw/*5.19*/("""
 
-"""),_display_(/*3.2*/main("Welcome to Play")/*3.25*/ {_display_(Seq[Any](format.raw/*3.27*/("""
-  """),format.raw/*4.3*/("""<h1>Welcome to Play!</h1>
-""")))}),format.raw/*5.2*/("""
+"""),format.raw/*11.4*/("""
+"""),_display_(/*12.2*/main("Welcome to Play")/*12.25*/ {_display_(Seq[Any](format.raw/*12.27*/("""
+
+    """),format.raw/*17.8*/("""
+    """),_display_(/*18.6*/welcome(message, style = "java")),format.raw/*18.38*/("""
+
+""")))}),format.raw/*20.2*/("""
 """))
       }
     }
   }
 
-  def render(): play.twirl.api.HtmlFormat.Appendable = apply()
+  def render(message:String): play.twirl.api.HtmlFormat.Appendable = apply(message)
 
-  def f:(() => play.twirl.api.HtmlFormat.Appendable) = () => apply()
+  def f:((String) => play.twirl.api.HtmlFormat.Appendable) = (message) => apply(message)
 
   def ref: this.type = this
 
@@ -51,11 +58,11 @@ Seq[Any](format.raw/*1.4*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Sat Jun 24 18:08:08 CEST 2017
+                  DATE: Sat Jun 24 23:38:07 CEST 2017
                   SOURCE: /Users/florianeMac/awi/app/views/index.scala.html
-                  HASH: 101fa511ddebe89cb9bf324b96e228b7b59b8d04
-                  MATRIX: 941->1|1037->3|1065->6|1096->29|1135->31|1164->34|1220->61
-                  LINES: 28->1|33->1|35->3|35->3|35->3|36->4|37->5
+                  HASH: 9040cdc6391df1f5c9d9a05a763073d6fd21d0f1
+                  MATRIX: 1037->95|1149->112|1178->308|1206->310|1238->333|1278->335|1311->464|1343->470|1396->502|1429->505
+                  LINES: 31->5|36->5|38->11|39->12|39->12|39->12|41->17|42->18|42->18|44->20
                   -- GENERATED --
               */
           

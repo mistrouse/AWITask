@@ -44,13 +44,12 @@ Seq[Any](format.raw/*7.32*/("""
         """),format.raw/*13.9*/("""<title>"""),_display_(/*13.17*/title),format.raw/*13.22*/("""</title>
         <link rel="stylesheet" media="screen" href=""""),_display_(/*14.54*/routes/*14.60*/.Assets.versioned("stylesheets/main.css")),format.raw/*14.101*/("""">
         <link rel="shortcut icon" type="image/png" href=""""),_display_(/*15.59*/routes/*15.65*/.Assets.versioned("images/favicon.png")),format.raw/*15.104*/("""">
+        <script src=""""),_display_(/*16.23*/routes/*16.29*/.Assets.versioned("javascripts/hello.js")),format.raw/*16.70*/("""" type="text/javascript"></script>
     </head>
     <body>
-        """),format.raw/*19.32*/("""
-        """),_display_(/*20.10*/content),format.raw/*20.17*/("""
-
-        """),format.raw/*22.9*/("""<script src=""""),_display_(/*22.23*/routes/*22.29*/.Assets.versioned("javascripts/main.js")),format.raw/*22.69*/("""" type="text/javascript"></script>
-    </body>
+        """),format.raw/*20.32*/("""
+        """),_display_(/*21.10*/content),format.raw/*21.17*/("""
+    """),format.raw/*22.5*/("""</body>
 </html>
 """))
       }
@@ -68,11 +67,11 @@ Seq[Any](format.raw/*7.32*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Sat Jun 24 18:08:08 CEST 2017
+                  DATE: Sat Jun 24 23:38:07 CEST 2017
                   SOURCE: /Users/florianeMac/awi/app/views/main.scala.html
-                  HASH: 863271db3bc90c425db2fb95e8fb0ff62c83f9b4
-                  MATRIX: 1206->260|1331->290|1359->292|1439->397|1475->406|1510->414|1536->419|1625->481|1640->487|1703->528|1791->589|1806->595|1867->634|1929->758|1966->768|1994->775|2031->785|2072->799|2087->805|2148->845
-                  LINES: 33->7|38->7|40->9|43->12|44->13|44->13|44->13|45->14|45->14|45->14|46->15|46->15|46->15|49->19|50->20|50->20|52->22|52->22|52->22|52->22
+                  HASH: 6ea0cc6fffc14ad60386de863a153b880fcdcbb3
+                  MATRIX: 1206->260|1331->290|1359->292|1439->397|1475->406|1510->414|1536->419|1625->481|1640->487|1703->528|1791->589|1806->595|1867->634|1919->659|1934->665|1996->706|2090->862|2127->872|2155->879|2187->884
+                  LINES: 33->7|38->7|40->9|43->12|44->13|44->13|44->13|45->14|45->14|45->14|46->15|46->15|46->15|47->16|47->16|47->16|50->20|51->21|51->21|52->22
                   -- GENERATED --
               */
           

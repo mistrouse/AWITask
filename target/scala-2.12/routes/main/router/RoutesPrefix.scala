@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/Users/florianeMac/awi/conf/routes
-// @DATE:Sat Jun 24 18:08:06 CEST 2017
+// @DATE:Sat Jun 24 23:38:06 CEST 2017
 
 
 package router {
