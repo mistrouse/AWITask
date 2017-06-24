@@ -8,6 +8,10 @@ scalaVersion := "2.12.2"
 
 libraryDependencies += guice
 
+
+libraryDependencies += jdbc
+libraryDependencies += evolutions
+
 // Test Database
 libraryDependencies += "com.h2database" % "h2" % "1.4.194"
 
