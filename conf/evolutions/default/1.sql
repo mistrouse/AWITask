@@ -5,9 +5,9 @@
  CREATE TABLE Task (
     id serial,
     name varchar(255) NOT NULL,
-    description text,
-    created_at timestamp,
-    updated_at timestamp,
+    content text,
+    creationDate timestamp,
+    updatedDate timestamp,
       constraint pk_task primary key (id)
 );
 
