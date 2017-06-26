@@ -38,5 +38,11 @@ public class Application extends Controller {
         return redirect(routes.Application.tasks());
     }
 
+    public static Result modifyTask(Long id) {
+        Task.edit(id);
+        return redirect(routes.Application.tasks());
+    }
+
+
 }
 
