@@ -1,6 +1,6 @@
 // @SOURCE:/Users/florianeMac/awi/conf/routes
-// @HASH:10faaf6b1c003369d3d38ad1091233d097ace0d7
-// @DATE:Sun Jun 25 21:56:54 CEST 2017
+// @HASH:111e5e8ccb6d0eb835b2346ea6b8e0713f1e4ffe
+// @DATE:Tue Jun 27 22:18:00 CEST 2017
 
 package controllers;
 

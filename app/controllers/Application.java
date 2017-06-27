@@ -36,11 +36,32 @@ public class Application extends Controller {
     public static Result deleteTask(Long id) {
         Task.delete(id);
         return redirect(routes.Application.tasks());
+
     }
 
-    public static Result modifyTask(Long id) {
-        Task.edit(id);
+
+
+    public static Result update(Long id) {
+
+    Form<Task> filledForm = taskForm.bindFromRequest();
+
+        if(filledForm.hasErrors()) {
+            return badRequest(
+                    views.html.edittask.render(id, filledForm)
+            );
+        } else {
+           /* Task.update(filledForm.get()); */ 
+            return redirect(routes.Application.tasks());
+        }
+
+
+
+        
+    }
+
+    public static Result edit(Long id) {
         return redirect(routes.Application.tasks());
+
     }
 
 

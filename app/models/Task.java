@@ -32,8 +32,8 @@ public class Task extends Model {
         find.ref(id).delete();
     }
 
-    public static void edit(Long id) {
-        find.ref(id).modify();
+    public static void update(Long id,Task task) {
+        find.ref(id).update();
     }
 
 

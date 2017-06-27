@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for todolist#todolist_2.10;1.0-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies todolist#todolist_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.3 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5b55e112[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7c74bdae[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.3[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.10.3[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.3 in sbt-chain[0m
@@ -17,7 +17,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies todolist#todolist_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies todolist#todolist_2.10;1.0-SNAPSHOT->com.typesafe.play#play_2.10;2.2.6 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play_2.10;2.2.6 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2f540095[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@513167d2[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#play_2.10;2.2.6[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.play#play_2.10;2.2.6[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe.play#play_2.10;2.2.6 in sbt-chain[0m
@@ -268,10 +268,10 @@
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: io.netty#netty;3.7.1.Final {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m		tried /Users/florianeMac/.ivy2/local/io.netty/netty/3.7.1.Final/ivys/ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for io.netty#netty;3.7.1.Final[0m
-[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/.sbt/preloaded/io.netty/netty/3.7.1.Final/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for io.netty#netty;3.7.1.Final[0m
-[0m[[0mdebug[0m] [0m		tried file:////Users/florianeMac/.sbt/preloaded/io/netty/netty/3.7.1.Final/netty-3.7.1.Final.pom[0m
-[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for io.netty#netty;3.7.1.Final[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/.activator/repository/io.netty/netty/3.7.1.Final/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-launcher-local: no ivy file found for io.netty#netty;3.7.1.Final[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/Downloads/activator-dist-1.3.12/repository/io.netty/netty/3.7.1.Final/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for io.netty#netty;3.7.1.Final[0m
 [0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/io/netty/netty/3.7.1.Final/netty-3.7.1.Final.pom[0m
 [0m[[0mdebug[0m] [0m	public: found md file for io.netty#netty;3.7.1.Final[0m
 [0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/io/netty/netty/3.7.1.Final/netty-3.7.1.Final.pom (3.7.1.Final)[0m
@@ -279,7 +279,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/io/netty/netty/3.7.1.Final/netty-3.7.1.Final.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/io/netty/netty/3.7.1.Final/netty-3.7.1.Final.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/io/netty/netty/3.7.1.Final/netty-3.7.1.Final.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] io.netty#netty;3.7.1.Final!netty.pom(pom.original) (705ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] io.netty#netty;3.7.1.Final!netty.pom(pom.original) (285ms)[0m
 [0m[[0minfo[0m] [0mResolving org.sonatype.oss#oss-parent;7 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7[0m
@@ -434,10 +434,10 @@
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.ning#async-http-client;1.7.18 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m		tried /Users/florianeMac/.ivy2/local/com.ning/async-http-client/1.7.18/ivys/ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for com.ning#async-http-client;1.7.18[0m
-[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/.sbt/preloaded/com.ning/async-http-client/1.7.18/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for com.ning#async-http-client;1.7.18[0m
-[0m[[0mdebug[0m] [0m		tried file:////Users/florianeMac/.sbt/preloaded/com/ning/async-http-client/1.7.18/async-http-client-1.7.18.pom[0m
-[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for com.ning#async-http-client;1.7.18[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/.activator/repository/com.ning/async-http-client/1.7.18/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-launcher-local: no ivy file found for com.ning#async-http-client;1.7.18[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/Downloads/activator-dist-1.3.12/repository/com.ning/async-http-client/1.7.18/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for com.ning#async-http-client;1.7.18[0m
 [0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/ning/async-http-client/1.7.18/async-http-client-1.7.18.pom[0m
 [0m[[0mdebug[0m] [0m	public: found md file for com.ning#async-http-client;1.7.18[0m
 [0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/com/ning/async-http-client/1.7.18/async-http-client-1.7.18.pom (1.7.18)[0m
@@ -445,7 +445,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/ning/async-http-client/1.7.18/async-http-client-1.7.18.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/ning/async-http-client/1.7.18/async-http-client-1.7.18.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/ning/async-http-client/1.7.18/async-http-client-1.7.18.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.ning#async-http-client;1.7.18!async-http-client.pom(pom.original) (276ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.ning#async-http-client;1.7.18!async-http-client.pom(pom.original) (207ms)[0m
 [0m[[0minfo[0m] [0mResolving org.sonatype.oss#oss-parent;5 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;5 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;5[0m
@@ -625,7 +625,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies todolist#todolist_2.10;1.0-SNAPSHOT->com.typesafe.play#play_2.10;2.2.6 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies todolist#todolist_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java_2.10;2.2.6 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play-java_2.10;2.2.6 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@53f69fa2[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@32d91722[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#play-java_2.10;2.2.6[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.play#play-java_2.10;2.2.6[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe.play#play-java_2.10;2.2.6 in sbt-chain[0m
@@ -668,10 +668,10 @@
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.fasterxml#classmate;0.8.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m		tried /Users/florianeMac/.ivy2/local/com.fasterxml/classmate/0.8.0/ivys/ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for com.fasterxml#classmate;0.8.0[0m
-[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/.sbt/preloaded/com.fasterxml/classmate/0.8.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for com.fasterxml#classmate;0.8.0[0m
-[0m[[0mdebug[0m] [0m		tried file:////Users/florianeMac/.sbt/preloaded/com/fasterxml/classmate/0.8.0/classmate-0.8.0.pom[0m
-[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for com.fasterxml#classmate;0.8.0[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/.activator/repository/com.fasterxml/classmate/0.8.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-launcher-local: no ivy file found for com.fasterxml#classmate;0.8.0[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/Downloads/activator-dist-1.3.12/repository/com.fasterxml/classmate/0.8.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for com.fasterxml#classmate;0.8.0[0m
 [0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/fasterxml/classmate/0.8.0/classmate-0.8.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: found md file for com.fasterxml#classmate;0.8.0[0m
 [0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/com/fasterxml/classmate/0.8.0/classmate-0.8.0.pom (0.8.0)[0m
@@ -679,7 +679,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/fasterxml/classmate/0.8.0/classmate-0.8.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/fasterxml/classmate/0.8.0/classmate-0.8.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/fasterxml/classmate/0.8.0/classmate-0.8.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.fasterxml#classmate;0.8.0!classmate.pom(pom.original) (266ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.fasterxml#classmate;0.8.0!classmate.pom(pom.original) (536ms)[0m
 [0m[[0minfo[0m] [0mResolving org.sonatype.oss#oss-parent;7 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7[0m
@@ -777,10 +777,10 @@
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.google.guava#guava;14.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m		tried /Users/florianeMac/.ivy2/local/com.google.guava/guava/14.0.1/ivys/ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for com.google.guava#guava;14.0.1[0m
-[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/.sbt/preloaded/com.google.guava/guava/14.0.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for com.google.guava#guava;14.0.1[0m
-[0m[[0mdebug[0m] [0m		tried file:////Users/florianeMac/.sbt/preloaded/com/google/guava/guava/14.0.1/guava-14.0.1.pom[0m
-[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for com.google.guava#guava;14.0.1[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/.activator/repository/com.google.guava/guava/14.0.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-launcher-local: no ivy file found for com.google.guava#guava;14.0.1[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/Downloads/activator-dist-1.3.12/repository/com.google.guava/guava/14.0.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for com.google.guava#guava;14.0.1[0m
 [0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: found md file for com.google.guava#guava;14.0.1[0m
 [0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1.pom (14.0.1)[0m
@@ -788,15 +788,15 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.google.guava#guava;14.0.1!guava.pom(pom.original) (244ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.google.guava#guava;14.0.1!guava.pom(pom.original) (801ms)[0m
 [0m[[0minfo[0m] [0mResolving com.google.guava#guava-parent;14.0.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.google.guava#guava-parent;14.0.1 {}[0m
 [0m[[0mdebug[0m] [0m		tried /Users/florianeMac/.ivy2/local/com.google.guava/guava-parent/14.0.1/ivys/ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for com.google.guava#guava-parent;14.0.1[0m
-[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/.sbt/preloaded/com.google.guava/guava-parent/14.0.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for com.google.guava#guava-parent;14.0.1[0m
-[0m[[0mdebug[0m] [0m		tried file:////Users/florianeMac/.sbt/preloaded/com/google/guava/guava-parent/14.0.1/guava-parent-14.0.1.pom[0m
-[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for com.google.guava#guava-parent;14.0.1[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/.activator/repository/com.google.guava/guava-parent/14.0.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-launcher-local: no ivy file found for com.google.guava#guava-parent;14.0.1[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/Downloads/activator-dist-1.3.12/repository/com.google.guava/guava-parent/14.0.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for com.google.guava#guava-parent;14.0.1[0m
 [0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/google/guava/guava-parent/14.0.1/guava-parent-14.0.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: found md file for com.google.guava#guava-parent;14.0.1[0m
 [0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/com/google/guava/guava-parent/14.0.1/guava-parent-14.0.1.pom (14.0.1)[0m
@@ -804,16 +804,20 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/google/guava/guava-parent/14.0.1/guava-parent-14.0.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/google/guava/guava-parent/14.0.1/guava-parent-14.0.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/google/guava/guava-parent/14.0.1/guava-parent-14.0.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.google.guava#guava-parent;14.0.1!guava-parent.pom(pom.original) (214ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.google.guava#guava-parent;14.0.1!guava-parent.pom(pom.original) (803ms)[0m
 [0m[[0minfo[0m] [0mResolving org.sonatype.oss#oss-parent;7 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.sonatype.oss#oss-parent;7[0m
 [0m[[0mdebug[0m] [0m		tried /Users/florianeMac/.ivy2/local/com.google.guava/guava-parent/14.0.1/jars/guava-parent.jar[0m
-[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/.sbt/preloaded/com.google.guava/guava-parent/14.0.1/jars/guava-parent.jar[0m
-[0m[[0mdebug[0m] [0m		tried file:////Users/florianeMac/.sbt/preloaded/com/google/guava/guava-parent/14.0.1/guava-parent-14.0.1.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/.activator/repository/com.google.guava/guava-parent/14.0.1/jars/guava-parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/Downloads/activator-dist-1.3.12/repository/com.google.guava/guava-parent/14.0.1/jars/guava-parent.jar[0m
 [0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/google/guava/guava-parent/14.0.1/guava-parent-14.0.1.jar[0m
 [0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/google/guava/guava-parent/14.0.1/guava-parent-14.0.1.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/google/guava/guava-parent/14.0.1/guava-parent-14.0.1.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/com/google/guava/guava-parent/14.0.1/guava-parent-14.0.1.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/com.google.guava/guava-parent/14.0.1/jars/guava-parent.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/com.google.guava/guava-parent/14.0.1/jars/guava-parent.jar[0m
 [0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/google/guava/guava-parent/14.0.1/guava-parent-14.0.1.jar[0m
 [0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/com/google/guava/guava-parent/14.0.1/guava-parent-14.0.1.jar[0m
 [0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/google/guava/guava-parent/14.0.1/guava-parent-14.0.1.jar[0m
@@ -865,7 +869,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies todolist#todolist_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java_2.10;2.2.6 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies todolist#todolist_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.10;2.2.6 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play-java-jdbc_2.10;2.2.6 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@41e4abd9[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3bc233e6[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#play-java-jdbc_2.10;2.2.6[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.play#play-java-jdbc_2.10;2.2.6[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe.play#play-java-jdbc_2.10;2.2.6 in sbt-chain[0m
@@ -940,7 +944,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies todolist#todolist_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.10;2.2.6 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies todolist#todolist_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java-ebean_2.10;2.2.6 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play-java-ebean_2.10;2.2.6 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@21f112f5[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@620fd20c[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#play-java-ebean_2.10;2.2.6[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.play#play-java-ebean_2.10;2.2.6[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe.play#play-java-ebean_2.10;2.2.6 in sbt-chain[0m
@@ -953,10 +957,10 @@
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.avaje.ebeanorm#avaje-ebeanorm;3.2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m		tried /Users/florianeMac/.ivy2/local/org.avaje.ebeanorm/avaje-ebeanorm/3.2.2/ivys/ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for org.avaje.ebeanorm#avaje-ebeanorm;3.2.2[0m
-[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/.sbt/preloaded/org.avaje.ebeanorm/avaje-ebeanorm/3.2.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for org.avaje.ebeanorm#avaje-ebeanorm;3.2.2[0m
-[0m[[0mdebug[0m] [0m		tried file:////Users/florianeMac/.sbt/preloaded/org/avaje/ebeanorm/avaje-ebeanorm/3.2.2/avaje-ebeanorm-3.2.2.pom[0m
-[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for org.avaje.ebeanorm#avaje-ebeanorm;3.2.2[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/.activator/repository/org.avaje.ebeanorm/avaje-ebeanorm/3.2.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-launcher-local: no ivy file found for org.avaje.ebeanorm#avaje-ebeanorm;3.2.2[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/Downloads/activator-dist-1.3.12/repository/org.avaje.ebeanorm/avaje-ebeanorm/3.2.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for org.avaje.ebeanorm#avaje-ebeanorm;3.2.2[0m
 [0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/avaje/ebeanorm/avaje-ebeanorm/3.2.2/avaje-ebeanorm-3.2.2.pom[0m
 [0m[[0mdebug[0m] [0m	public: found md file for org.avaje.ebeanorm#avaje-ebeanorm;3.2.2[0m
 [0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/avaje/ebeanorm/avaje-ebeanorm/3.2.2/avaje-ebeanorm-3.2.2.pom (3.2.2)[0m
@@ -964,7 +968,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/avaje/ebeanorm/avaje-ebeanorm/3.2.2/avaje-ebeanorm-3.2.2.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/avaje/ebeanorm/avaje-ebeanorm/3.2.2/avaje-ebeanorm-3.2.2.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/avaje/ebeanorm/avaje-ebeanorm/3.2.2/avaje-ebeanorm-3.2.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.avaje.ebeanorm#avaje-ebeanorm;3.2.2!avaje-ebeanorm.pom(pom.original) (791ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.avaje.ebeanorm#avaje-ebeanorm;3.2.2!avaje-ebeanorm.pom(pom.original) (556ms)[0m
 [0m[[0minfo[0m] [0mResolving org.avaje#avaje-javaparent;1.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.avaje#avaje-javaparent;1.2 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.avaje#avaje-javaparent;1.2[0m
@@ -977,10 +981,10 @@
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.avaje.ebeanorm#avaje-ebeanorm-agent;3.2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m		tried /Users/florianeMac/.ivy2/local/org.avaje.ebeanorm/avaje-ebeanorm-agent/3.2.1/ivys/ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for org.avaje.ebeanorm#avaje-ebeanorm-agent;3.2.1[0m
-[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/.sbt/preloaded/org.avaje.ebeanorm/avaje-ebeanorm-agent/3.2.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for org.avaje.ebeanorm#avaje-ebeanorm-agent;3.2.1[0m
-[0m[[0mdebug[0m] [0m		tried file:////Users/florianeMac/.sbt/preloaded/org/avaje/ebeanorm/avaje-ebeanorm-agent/3.2.1/avaje-ebeanorm-agent-3.2.1.pom[0m
-[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for org.avaje.ebeanorm#avaje-ebeanorm-agent;3.2.1[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/.activator/repository/org.avaje.ebeanorm/avaje-ebeanorm-agent/3.2.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-launcher-local: no ivy file found for org.avaje.ebeanorm#avaje-ebeanorm-agent;3.2.1[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/Downloads/activator-dist-1.3.12/repository/org.avaje.ebeanorm/avaje-ebeanorm-agent/3.2.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for org.avaje.ebeanorm#avaje-ebeanorm-agent;3.2.1[0m
 [0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/avaje/ebeanorm/avaje-ebeanorm-agent/3.2.1/avaje-ebeanorm-agent-3.2.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: found md file for org.avaje.ebeanorm#avaje-ebeanorm-agent;3.2.1[0m
 [0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/avaje/ebeanorm/avaje-ebeanorm-agent/3.2.1/avaje-ebeanorm-agent-3.2.1.pom (3.2.1)[0m
@@ -988,15 +992,15 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/avaje/ebeanorm/avaje-ebeanorm-agent/3.2.1/avaje-ebeanorm-agent-3.2.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/avaje/ebeanorm/avaje-ebeanorm-agent/3.2.1/avaje-ebeanorm-agent-3.2.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/avaje/ebeanorm/avaje-ebeanorm-agent/3.2.1/avaje-ebeanorm-agent-3.2.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.avaje.ebeanorm#avaje-ebeanorm-agent;3.2.1!avaje-ebeanorm-agent.pom(pom.original) (1021ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.avaje.ebeanorm#avaje-ebeanorm-agent;3.2.1!avaje-ebeanorm-agent.pom(pom.original) (936ms)[0m
 [0m[[0minfo[0m] [0mResolving org.avaje#avaje-javaparent;1.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.avaje#avaje-javaparent;1.1 {}[0m
 [0m[[0mdebug[0m] [0m		tried /Users/florianeMac/.ivy2/local/org.avaje/avaje-javaparent/1.1/ivys/ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for org.avaje#avaje-javaparent;1.1[0m
-[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/.sbt/preloaded/org.avaje/avaje-javaparent/1.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for org.avaje#avaje-javaparent;1.1[0m
-[0m[[0mdebug[0m] [0m		tried file:////Users/florianeMac/.sbt/preloaded/org/avaje/avaje-javaparent/1.1/avaje-javaparent-1.1.pom[0m
-[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for org.avaje#avaje-javaparent;1.1[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/.activator/repository/org.avaje/avaje-javaparent/1.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-launcher-local: no ivy file found for org.avaje#avaje-javaparent;1.1[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/Downloads/activator-dist-1.3.12/repository/org.avaje/avaje-javaparent/1.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for org.avaje#avaje-javaparent;1.1[0m
 [0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/avaje/avaje-javaparent/1.1/avaje-javaparent-1.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: found md file for org.avaje#avaje-javaparent;1.1[0m
 [0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/avaje/avaje-javaparent/1.1/avaje-javaparent-1.1.pom (1.1)[0m
@@ -1004,15 +1008,15 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/avaje/avaje-javaparent/1.1/avaje-javaparent-1.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/avaje/avaje-javaparent/1.1/avaje-javaparent-1.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/avaje/avaje-javaparent/1.1/avaje-javaparent-1.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.avaje#avaje-javaparent;1.1!avaje-javaparent.pom(pom.original) (1059ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.avaje#avaje-javaparent;1.1!avaje-javaparent.pom(pom.original) (329ms)[0m
 [0m[[0minfo[0m] [0mResolving org.avaje#avaje-parent;1.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.avaje#avaje-parent;1.1 {}[0m
 [0m[[0mdebug[0m] [0m		tried /Users/florianeMac/.ivy2/local/org.avaje/avaje-parent/1.1/ivys/ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for org.avaje#avaje-parent;1.1[0m
-[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/.sbt/preloaded/org.avaje/avaje-parent/1.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for org.avaje#avaje-parent;1.1[0m
-[0m[[0mdebug[0m] [0m		tried file:////Users/florianeMac/.sbt/preloaded/org/avaje/avaje-parent/1.1/avaje-parent-1.1.pom[0m
-[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for org.avaje#avaje-parent;1.1[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/.activator/repository/org.avaje/avaje-parent/1.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-launcher-local: no ivy file found for org.avaje#avaje-parent;1.1[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/Downloads/activator-dist-1.3.12/repository/org.avaje/avaje-parent/1.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for org.avaje#avaje-parent;1.1[0m
 [0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/avaje/avaje-parent/1.1/avaje-parent-1.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: found md file for org.avaje#avaje-parent;1.1[0m
 [0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/avaje/avaje-parent/1.1/avaje-parent-1.1.pom (1.1)[0m
@@ -1020,25 +1024,33 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/avaje/avaje-parent/1.1/avaje-parent-1.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/avaje/avaje-parent/1.1/avaje-parent-1.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/avaje/avaje-parent/1.1/avaje-parent-1.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.avaje#avaje-parent;1.1!avaje-parent.pom(pom.original) (277ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.avaje#avaje-parent;1.1!avaje-parent.pom(pom.original) (224ms)[0m
 [0m[[0minfo[0m] [0mResolving org.sonatype.oss#oss-parent;7 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.sonatype.oss#oss-parent;7[0m
 [0m[[0mdebug[0m] [0m		tried /Users/florianeMac/.ivy2/local/org.avaje/avaje-parent/1.1/jars/avaje-parent.jar[0m
-[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/.sbt/preloaded/org.avaje/avaje-parent/1.1/jars/avaje-parent.jar[0m
-[0m[[0mdebug[0m] [0m		tried file:////Users/florianeMac/.sbt/preloaded/org/avaje/avaje-parent/1.1/avaje-parent-1.1.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/.activator/repository/org.avaje/avaje-parent/1.1/jars/avaje-parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/Downloads/activator-dist-1.3.12/repository/org.avaje/avaje-parent/1.1/jars/avaje-parent.jar[0m
 [0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/avaje/avaje-parent/1.1/avaje-parent-1.1.jar[0m
 [0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/avaje/avaje-parent/1.1/avaje-parent-1.1.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/avaje/avaje-parent/1.1/avaje-parent-1.1.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/avaje/avaje-parent/1.1/avaje-parent-1.1.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/org.avaje/avaje-parent/1.1/jars/avaje-parent.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.avaje/avaje-parent/1.1/jars/avaje-parent.jar[0m
 [0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/avaje/avaje-parent/1.1/avaje-parent-1.1.jar[0m
 [0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/avaje/avaje-parent/1.1/avaje-parent-1.1.jar[0m
 [0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/avaje/avaje-parent/1.1/avaje-parent-1.1.jar[0m
 [0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/avaje/avaje-parent/1.1/avaje-parent-1.1.jar[0m
 [0m[[0mdebug[0m] [0m		tried /Users/florianeMac/.ivy2/local/org.avaje/avaje-javaparent/1.1/jars/avaje-javaparent.jar[0m
-[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/.sbt/preloaded/org.avaje/avaje-javaparent/1.1/jars/avaje-javaparent.jar[0m
-[0m[[0mdebug[0m] [0m		tried file:////Users/florianeMac/.sbt/preloaded/org/avaje/avaje-javaparent/1.1/avaje-javaparent-1.1.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/.activator/repository/org.avaje/avaje-javaparent/1.1/jars/avaje-javaparent.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/Downloads/activator-dist-1.3.12/repository/org.avaje/avaje-javaparent/1.1/jars/avaje-javaparent.jar[0m
 [0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/avaje/avaje-javaparent/1.1/avaje-javaparent-1.1.jar[0m
 [0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/avaje/avaje-javaparent/1.1/avaje-javaparent-1.1.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/avaje/avaje-javaparent/1.1/avaje-javaparent-1.1.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/avaje/avaje-javaparent/1.1/avaje-javaparent-1.1.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/org.avaje/avaje-javaparent/1.1/jars/avaje-javaparent.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.avaje/avaje-javaparent/1.1/jars/avaje-javaparent.jar[0m
 [0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/avaje/avaje-javaparent/1.1/avaje-javaparent-1.1.jar[0m
 [0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/avaje/avaje-javaparent/1.1/avaje-javaparent-1.1.jar[0m
 [0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/avaje/avaje-javaparent/1.1/avaje-javaparent-1.1.jar[0m
@@ -2139,7 +2151,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies todolist#todolist_2.10;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.10;2.2.6 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies todolist#todolist_2.10;1.0-SNAPSHOT->com.typesafe.play#play-test_2.10;2.2.6 [test->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play-test_2.10;2.2.6 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@10e50093[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2b0bcfc7[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#play-test_2.10;2.2.6[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.play#play-test_2.10;2.2.6[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe.play#play-test_2.10;2.2.6 in sbt-chain[0m
@@ -2260,10 +2272,10 @@
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.fluentlenium#fluentlenium-festassert;0.8.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m		tried /Users/florianeMac/.ivy2/local/org.fluentlenium/fluentlenium-festassert/0.8.0/ivys/ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for org.fluentlenium#fluentlenium-festassert;0.8.0[0m
-[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/.sbt/preloaded/org.fluentlenium/fluentlenium-festassert/0.8.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for org.fluentlenium#fluentlenium-festassert;0.8.0[0m
-[0m[[0mdebug[0m] [0m		tried file:////Users/florianeMac/.sbt/preloaded/org/fluentlenium/fluentlenium-festassert/0.8.0/fluentlenium-festassert-0.8.0.pom[0m
-[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for org.fluentlenium#fluentlenium-festassert;0.8.0[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/.activator/repository/org.fluentlenium/fluentlenium-festassert/0.8.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-launcher-local: no ivy file found for org.fluentlenium#fluentlenium-festassert;0.8.0[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/Downloads/activator-dist-1.3.12/repository/org.fluentlenium/fluentlenium-festassert/0.8.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for org.fluentlenium#fluentlenium-festassert;0.8.0[0m
 [0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/fluentlenium/fluentlenium-festassert/0.8.0/fluentlenium-festassert-0.8.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: found md file for org.fluentlenium#fluentlenium-festassert;0.8.0[0m
 [0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/fluentlenium/fluentlenium-festassert/0.8.0/fluentlenium-festassert-0.8.0.pom (0.8.0)[0m
@@ -2271,15 +2283,15 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/fluentlenium/fluentlenium-festassert/0.8.0/fluentlenium-festassert-0.8.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/fluentlenium/fluentlenium-festassert/0.8.0/fluentlenium-festassert-0.8.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/fluentlenium/fluentlenium-festassert/0.8.0/fluentlenium-festassert-0.8.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.fluentlenium#fluentlenium-festassert;0.8.0!fluentlenium-festassert.pom(pom.original) (240ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.fluentlenium#fluentlenium-festassert;0.8.0!fluentlenium-festassert.pom(pom.original) (196ms)[0m
 [0m[[0minfo[0m] [0mResolving org.fluentlenium#fluentlenium-parent;0.8.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.fluentlenium#fluentlenium-parent;0.8.0 {}[0m
 [0m[[0mdebug[0m] [0m		tried /Users/florianeMac/.ivy2/local/org.fluentlenium/fluentlenium-parent/0.8.0/ivys/ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for org.fluentlenium#fluentlenium-parent;0.8.0[0m
-[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/.sbt/preloaded/org.fluentlenium/fluentlenium-parent/0.8.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for org.fluentlenium#fluentlenium-parent;0.8.0[0m
-[0m[[0mdebug[0m] [0m		tried file:////Users/florianeMac/.sbt/preloaded/org/fluentlenium/fluentlenium-parent/0.8.0/fluentlenium-parent-0.8.0.pom[0m
-[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for org.fluentlenium#fluentlenium-parent;0.8.0[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/.activator/repository/org.fluentlenium/fluentlenium-parent/0.8.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-launcher-local: no ivy file found for org.fluentlenium#fluentlenium-parent;0.8.0[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/Downloads/activator-dist-1.3.12/repository/org.fluentlenium/fluentlenium-parent/0.8.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for org.fluentlenium#fluentlenium-parent;0.8.0[0m
 [0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/fluentlenium/fluentlenium-parent/0.8.0/fluentlenium-parent-0.8.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: found md file for org.fluentlenium#fluentlenium-parent;0.8.0[0m
 [0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/fluentlenium/fluentlenium-parent/0.8.0/fluentlenium-parent-0.8.0.pom (0.8.0)[0m
@@ -2287,16 +2299,20 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/fluentlenium/fluentlenium-parent/0.8.0/fluentlenium-parent-0.8.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/fluentlenium/fluentlenium-parent/0.8.0/fluentlenium-parent-0.8.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/fluentlenium/fluentlenium-parent/0.8.0/fluentlenium-parent-0.8.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.fluentlenium#fluentlenium-parent;0.8.0!fluentlenium-parent.pom(pom.original) (225ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.fluentlenium#fluentlenium-parent;0.8.0!fluentlenium-parent.pom(pom.original) (219ms)[0m
 [0m[[0minfo[0m] [0mResolving org.sonatype.oss#oss-parent;7 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.sonatype.oss#oss-parent;7[0m
 [0m[[0mdebug[0m] [0m		tried /Users/florianeMac/.ivy2/local/org.fluentlenium/fluentlenium-parent/0.8.0/jars/fluentlenium-parent.jar[0m
-[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/.sbt/preloaded/org.fluentlenium/fluentlenium-parent/0.8.0/jars/fluentlenium-parent.jar[0m
-[0m[[0mdebug[0m] [0m		tried file:////Users/florianeMac/.sbt/preloaded/org/fluentlenium/fluentlenium-parent/0.8.0/fluentlenium-parent-0.8.0.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/.activator/repository/org.fluentlenium/fluentlenium-parent/0.8.0/jars/fluentlenium-parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/Downloads/activator-dist-1.3.12/repository/org.fluentlenium/fluentlenium-parent/0.8.0/jars/fluentlenium-parent.jar[0m
 [0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/fluentlenium/fluentlenium-parent/0.8.0/fluentlenium-parent-0.8.0.jar[0m
 [0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/fluentlenium/fluentlenium-parent/0.8.0/fluentlenium-parent-0.8.0.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/fluentlenium/fluentlenium-parent/0.8.0/fluentlenium-parent-0.8.0.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/fluentlenium/fluentlenium-parent/0.8.0/fluentlenium-parent-0.8.0.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/org.fluentlenium/fluentlenium-parent/0.8.0/jars/fluentlenium-parent.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.fluentlenium/fluentlenium-parent/0.8.0/jars/fluentlenium-parent.jar[0m
 [0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/fluentlenium/fluentlenium-parent/0.8.0/fluentlenium-parent-0.8.0.jar[0m
 [0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/fluentlenium/fluentlenium-parent/0.8.0/fluentlenium-parent-0.8.0.jar[0m
 [0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/fluentlenium/fluentlenium-parent/0.8.0/fluentlenium-parent-0.8.0.jar[0m
@@ -2308,10 +2324,10 @@
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.fluentlenium#fluentlenium-core;0.8.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m		tried /Users/florianeMac/.ivy2/local/org.fluentlenium/fluentlenium-core/0.8.0/ivys/ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for org.fluentlenium#fluentlenium-core;0.8.0[0m
-[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/.sbt/preloaded/org.fluentlenium/fluentlenium-core/0.8.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for org.fluentlenium#fluentlenium-core;0.8.0[0m
-[0m[[0mdebug[0m] [0m		tried file:////Users/florianeMac/.sbt/preloaded/org/fluentlenium/fluentlenium-core/0.8.0/fluentlenium-core-0.8.0.pom[0m
-[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for org.fluentlenium#fluentlenium-core;0.8.0[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/.activator/repository/org.fluentlenium/fluentlenium-core/0.8.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-launcher-local: no ivy file found for org.fluentlenium#fluentlenium-core;0.8.0[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/Downloads/activator-dist-1.3.12/repository/org.fluentlenium/fluentlenium-core/0.8.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for org.fluentlenium#fluentlenium-core;0.8.0[0m
 [0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/fluentlenium/fluentlenium-core/0.8.0/fluentlenium-core-0.8.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: found md file for org.fluentlenium#fluentlenium-core;0.8.0[0m
 [0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/fluentlenium/fluentlenium-core/0.8.0/fluentlenium-core-0.8.0.pom (0.8.0)[0m
@@ -2319,7 +2335,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/fluentlenium/fluentlenium-core/0.8.0/fluentlenium-core-0.8.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/fluentlenium/fluentlenium-core/0.8.0/fluentlenium-core-0.8.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/fluentlenium/fluentlenium-core/0.8.0/fluentlenium-core-0.8.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.fluentlenium#fluentlenium-core;0.8.0!fluentlenium-core.pom(pom.original) (723ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.fluentlenium#fluentlenium-core;0.8.0!fluentlenium-core.pom(pom.original) (223ms)[0m
 [0m[[0minfo[0m] [0mResolving org.fluentlenium#fluentlenium-parent;0.8.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.fluentlenium#fluentlenium-parent;0.8.0 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fluentlenium#fluentlenium-parent;0.8.0[0m
@@ -2481,31 +2497,15 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;14.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0minfo[0m] [0mResolving commons-codec#commons-codec;1.6 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: commons-codec#commons-codec;1.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/florianeMac/.ivy2/local/commons-codec/commons-codec/1.6/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for commons-codec#commons-codec;1.6[0m
-[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/.sbt/preloaded/commons-codec/commons-codec/1.6/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for commons-codec#commons-codec;1.6[0m
-[0m[[0mdebug[0m] [0m		tried file:////Users/florianeMac/.sbt/preloaded/commons-codec/commons-codec/1.6/commons-codec-1.6.pom[0m
-[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for commons-codec#commons-codec;1.6[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for commons-codec#commons-codec;1.6[0m
-[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.pom (1.6)[0m
-[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] commons-codec#commons-codec;1.6!commons-codec.pom(pom.original) (556ms)[0m
-[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-parent;22 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.commons#commons-parent;22 {}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.commons#commons-parent;22[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: org.apache.commons#commons-parent;22[0m
-[0m[[0mdebug[0m] [0m	found commons-codec#commons-codec;1.6 in public[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.10 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: commons-codec#commons-codec;1.6[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: commons-codec#commons-codec;1.6[0m
+[0m[[0mdebug[0m] [0m	found commons-codec#commons-codec;1.6 in sbt-chain[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.10 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.2.1->commons-codec#commons-codec;1.6 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.10 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.10 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.2.1->commons-codec#commons-codec;1.6 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.2.1->commons-codec#commons-codec;1.6 [compile->compile][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.10 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.10 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.32.0->org.apache.httpcomponents#httpclient;4.2.1 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.32.0->org.apache.httpcomponents#httpclient;4.2.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.9 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
@@ -2613,27 +2613,11 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;14.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0minfo[0m] [0mResolving xalan#xalan;2.7.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: xalan#xalan;2.7.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/florianeMac/.ivy2/local/xalan/xalan/2.7.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for xalan#xalan;2.7.1[0m
-[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/.sbt/preloaded/xalan/xalan/2.7.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for xalan#xalan;2.7.1[0m
-[0m[[0mdebug[0m] [0m		tried file:////Users/florianeMac/.sbt/preloaded/xalan/xalan/2.7.1/xalan-2.7.1.pom[0m
-[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for xalan#xalan;2.7.1[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/xalan/xalan/2.7.1/xalan-2.7.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for xalan#xalan;2.7.1[0m
-[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/xalan/xalan/2.7.1/xalan-2.7.1.pom (2.7.1)[0m
-[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/xalan/xalan/2.7.1/xalan-2.7.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/xalan/xalan/2.7.1/xalan-2.7.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/xalan/xalan/2.7.1/xalan-2.7.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/xalan/xalan/2.7.1/xalan-2.7.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] xalan#xalan;2.7.1!xalan.pom(pom.original) (700ms)[0m
-[0m[[0minfo[0m] [0mResolving org.apache#apache;4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache#apache;4 {}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache#apache;4[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: org.apache#apache;4[0m
-[0m[[0mdebug[0m] [0m	found xalan#xalan;2.7.1 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: xalan#xalan;2.7.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: xalan#xalan;2.7.1[0m
+[0m[[0mdebug[0m] [0m	found xalan#xalan;2.7.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.12->xalan#xalan;2.7.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies xalan#xalan;2.7.1->xalan#serializer;2.7.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies xalan#xalan;2.7.1->xalan#serializer;2.7.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.apache.httpcomponents#httpclient;4.2.3 {compile=[compile(*), master(*)], runtime=[runtime(*)], test=[runtime(*), master(*)]} => dependency: org.apache.httpcomponents#httpclient;4.2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)], test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-codec#commons-codec;1.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-codec#commons-codec;1.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-io#commons-io;2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
@@ -2652,28 +2636,12 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;14.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;14.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0minfo[0m] [0mResolving xalan#serializer;2.7.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: xalan#serializer;2.7.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/florianeMac/.ivy2/local/xalan/serializer/2.7.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for xalan#serializer;2.7.1[0m
-[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/.sbt/preloaded/xalan/serializer/2.7.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for xalan#serializer;2.7.1[0m
-[0m[[0mdebug[0m] [0m		tried file:////Users/florianeMac/.sbt/preloaded/xalan/serializer/2.7.1/serializer-2.7.1.pom[0m
-[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for xalan#serializer;2.7.1[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/xalan/serializer/2.7.1/serializer-2.7.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for xalan#serializer;2.7.1[0m
-[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/xalan/serializer/2.7.1/serializer-2.7.1.pom (2.7.1)[0m
-[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/xalan/serializer/2.7.1/serializer-2.7.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/xalan/serializer/2.7.1/serializer-2.7.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/xalan/serializer/2.7.1/serializer-2.7.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/xalan/serializer/2.7.1/serializer-2.7.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] xalan#serializer;2.7.1!serializer.pom(pom.original) (615ms)[0m
-[0m[[0minfo[0m] [0mResolving org.apache#apache;4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache#apache;4 {}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache#apache;4[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: org.apache#apache;4[0m
-[0m[[0mdebug[0m] [0m	found xalan#serializer;2.7.1 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: xalan#serializer;2.7.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: xalan#serializer;2.7.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: xalan#serializer;2.7.1[0m
+[0m[[0mdebug[0m] [0m	found xalan#serializer;2.7.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies xalan#xalan;2.7.1->xalan#serializer;2.7.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies xalan#serializer;2.7.1->xml-apis#xml-apis;1.3.04 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies xalan#serializer;2.7.1->xml-apis#xml-apis;1.3.04 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.apache.httpcomponents#httpclient;4.2.3 {compile=[compile(*), master(*)], runtime=[runtime(*)], test=[runtime(*), master(*)]} => dependency: org.apache.httpcomponents#httpclient;4.2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)], test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-codec#commons-codec;1.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-codec#commons-codec;1.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-io#commons-io;2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
@@ -2691,7 +2659,7 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;14.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;14.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;14.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies xalan#serializer;2.7.1->xml-apis#xml-apis;1.4.01 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies xalan#serializer;2.7.1->xml-apis#xml-apis;1.4.01 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies xalan#serializer;2.7.1->xml-apis#xml-apis;1.3.04 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies xalan#serializer;2.7.1->xml-apis#xml-apis;1.4.01 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.12->commons-collections#commons-collections;3.2.1 [compile->master(*)][0m
@@ -2705,53 +2673,12 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;14.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0minfo[0m] [0mResolving commons-collections#commons-collections;3.2.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: commons-collections#commons-collections;3.2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/florianeMac/.ivy2/local/commons-collections/commons-collections/3.2.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for commons-collections#commons-collections;3.2.1[0m
-[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/.sbt/preloaded/commons-collections/commons-collections/3.2.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for commons-collections#commons-collections;3.2.1[0m
-[0m[[0mdebug[0m] [0m		tried file:////Users/florianeMac/.sbt/preloaded/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom[0m
-[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for commons-collections#commons-collections;3.2.1[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for commons-collections#commons-collections;3.2.1[0m
-[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom (3.2.1)[0m
-[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] commons-collections#commons-collections;3.2.1!commons-collections.pom(pom.original) (652ms)[0m
-[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-parent;9 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.commons#commons-parent;9 {}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/florianeMac/.ivy2/local/org.apache.commons/commons-parent/9/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.commons#commons-parent;9[0m
-[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/.sbt/preloaded/org.apache.commons/commons-parent/9/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for org.apache.commons#commons-parent;9[0m
-[0m[[0mdebug[0m] [0m		tried file:////Users/florianeMac/.sbt/preloaded/org/apache/commons/commons-parent/9/commons-parent-9.pom[0m
-[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for org.apache.commons#commons-parent;9[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/apache/commons/commons-parent/9/commons-parent-9.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.apache.commons#commons-parent;9[0m
-[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/apache/commons/commons-parent/9/commons-parent-9.pom (9)[0m
-[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/apache/commons/commons-parent/9/commons-parent-9.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/commons/commons-parent/9/commons-parent-9.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/apache/commons/commons-parent/9/commons-parent-9.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/apache/commons/commons-parent/9/commons-parent-9.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.commons#commons-parent;9!commons-parent.pom(pom.original) (308ms)[0m
-[0m[[0minfo[0m] [0mResolving org.apache#apache;4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache#apache;4 {}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache#apache;4[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: org.apache#apache;4[0m
-[0m[[0mdebug[0m] [0m		tried /Users/florianeMac/.ivy2/local/org.apache.commons/commons-parent/9/jars/commons-parent.jar[0m
-[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/.sbt/preloaded/org.apache.commons/commons-parent/9/jars/commons-parent.jar[0m
-[0m[[0mdebug[0m] [0m		tried file:////Users/florianeMac/.sbt/preloaded/org/apache/commons/commons-parent/9/commons-parent-9.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/apache/commons/commons-parent/9/commons-parent-9.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/apache/commons/commons-parent/9/commons-parent-9.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/apache/commons/commons-parent/9/commons-parent-9.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/apache/commons/commons-parent/9/commons-parent-9.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/apache/commons/commons-parent/9/commons-parent-9.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/apache/commons/commons-parent/9/commons-parent-9.jar[0m
-[0m[[0mdebug[0m] [0m	found commons-collections#commons-collections;3.2.1 in public[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: commons-collections#commons-collections;3.2.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: commons-collections#commons-collections;3.2.1[0m
+[0m[[0mdebug[0m] [0m	found commons-collections#commons-collections;3.2.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.12->commons-collections#commons-collections;3.2.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.12->org.apache.commons#commons-lang3;3.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.apache.httpcomponents#httpclient;4.2.3 {compile=[compile(*), master(*)], runtime=[runtime(*)], test=[runtime(*), master(*)]} => dependency: org.apache.httpcomponents#httpclient;4.2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)], test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-codec#commons-codec;1.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-codec#commons-codec;1.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
@@ -2869,27 +2796,11 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;14.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0minfo[0m] [0mResolving net.sourceforge.cssparser#cssparser;0.9.9 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: net.sourceforge.cssparser#cssparser;0.9.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/florianeMac/.ivy2/local/net.sourceforge.cssparser/cssparser/0.9.9/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for net.sourceforge.cssparser#cssparser;0.9.9[0m
-[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/.sbt/preloaded/net.sourceforge.cssparser/cssparser/0.9.9/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for net.sourceforge.cssparser#cssparser;0.9.9[0m
-[0m[[0mdebug[0m] [0m		tried file:////Users/florianeMac/.sbt/preloaded/net/sourceforge/cssparser/cssparser/0.9.9/cssparser-0.9.9.pom[0m
-[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for net.sourceforge.cssparser#cssparser;0.9.9[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/net/sourceforge/cssparser/cssparser/0.9.9/cssparser-0.9.9.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for net.sourceforge.cssparser#cssparser;0.9.9[0m
-[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/net/sourceforge/cssparser/cssparser/0.9.9/cssparser-0.9.9.pom (0.9.9)[0m
-[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/net/sourceforge/cssparser/cssparser/0.9.9/cssparser-0.9.9.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/net/sourceforge/cssparser/cssparser/0.9.9/cssparser-0.9.9.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/net/sourceforge/cssparser/cssparser/0.9.9/cssparser-0.9.9.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/net/sourceforge/cssparser/cssparser/0.9.9/cssparser-0.9.9.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] net.sourceforge.cssparser#cssparser;0.9.9!cssparser.pom(pom.original) (204ms)[0m
-[0m[[0minfo[0m] [0mResolving org.sonatype.oss#oss-parent;7 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: org.sonatype.oss#oss-parent;7[0m
-[0m[[0mdebug[0m] [0m	found net.sourceforge.cssparser#cssparser;0.9.9 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.sourceforge.cssparser#cssparser;0.9.9[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: net.sourceforge.cssparser#cssparser;0.9.9[0m
+[0m[[0mdebug[0m] [0m	found net.sourceforge.cssparser#cssparser;0.9.9 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.12->net.sourceforge.cssparser#cssparser;0.9.9 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.cssparser#cssparser;0.9.9->org.w3c.css#sac;1.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.cssparser#cssparser;0.9.9->org.w3c.css#sac;1.3 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.apache.httpcomponents#httpclient;4.2.3 {compile=[compile(*), master(*)], runtime=[runtime(*)], test=[runtime(*), master(*)]} => dependency: org.apache.httpcomponents#httpclient;4.2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)], test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-codec#commons-codec;1.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-codec#commons-codec;1.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-io#commons-io;2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
@@ -2908,7 +2819,7 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;14.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;14.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0minfo[0m] [0mResolving org.w3c.css#sac;1.3 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.w3c.css#sac;1.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.w3c.css#sac;1.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.w3c.css#sac;1.3[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.w3c.css#sac;1.3[0m
 [0m[[0mdebug[0m] [0m	found org.w3c.css#sac;1.3 in sbt-chain[0m
@@ -2926,10 +2837,10 @@
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: commons-io#commons-io;2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m		tried /Users/florianeMac/.ivy2/local/commons-io/commons-io/2.2/ivys/ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for commons-io#commons-io;2.2[0m
-[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/.sbt/preloaded/commons-io/commons-io/2.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for commons-io#commons-io;2.2[0m
-[0m[[0mdebug[0m] [0m		tried file:////Users/florianeMac/.sbt/preloaded/commons-io/commons-io/2.2/commons-io-2.2.pom[0m
-[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for commons-io#commons-io;2.2[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/.activator/repository/commons-io/commons-io/2.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-launcher-local: no ivy file found for commons-io#commons-io;2.2[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/florianeMac/Downloads/activator-dist-1.3.12/repository/commons-io/commons-io/2.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for commons-io#commons-io;2.2[0m
 [0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/commons-io/commons-io/2.2/commons-io-2.2.pom[0m
 [0m[[0mdebug[0m] [0m	public: found md file for commons-io#commons-io;2.2[0m
 [0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/commons-io/commons-io/2.2/commons-io-2.2.pom (2.2)[0m
@@ -2937,7 +2848,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/commons-io/commons-io/2.2/commons-io-2.2.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/commons-io/commons-io/2.2/commons-io-2.2.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/commons-io/commons-io/2.2/commons-io-2.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] commons-io#commons-io;2.2!commons-io.pom(pom.original) (194ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] commons-io#commons-io;2.2!commons-io.pom(pom.original) (217ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.commons#commons-parent;24 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.commons#commons-parent;24 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.commons#commons-parent;24[0m
@@ -3265,7 +3176,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies xalan#serializer;2.7.1->xml-apis#xml-apis;1.4.01 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.12->commons-collections#commons-collections;3.2.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.12->commons-collections#commons-collections;3.2.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.12->org.apache.commons#commons-lang3;3.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.12->org.apache.commons#commons-lang3;3.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.12->org.apache.httpcomponents#httpclient;4.2.1 [runtime->runtime(*)][0m
@@ -5081,9 +4992,9 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;14.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: junit#junit;4.11 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;14.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.10 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.10 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.2.1->commons-codec#commons-codec;1.6 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.10 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.10 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.32.0->org.apache.commons#commons-exec;1.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;14.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;14.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
@@ -5151,7 +5062,7 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;14.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;14.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.12->xalan#xalan;2.7.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies xalan#xalan;2.7.1->xalan#serializer;2.7.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies xalan#xalan;2.7.1->xalan#serializer;2.7.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.apache.httpcomponents#httpclient;4.2.3 {compile=[compile(*), master(*)], runtime=[runtime(*)], test=[runtime(*), master(*)]} => dependency: org.apache.httpcomponents#httpclient;4.2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)], test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-codec#commons-codec;1.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-codec#commons-codec;1.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-io#commons-io;2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
@@ -5170,7 +5081,7 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;14.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;14.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies xalan#xalan;2.7.1->xalan#serializer;2.7.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies xalan#serializer;2.7.1->xml-apis#xml-apis;1.3.04 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies xalan#serializer;2.7.1->xml-apis#xml-apis;1.3.04 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.apache.httpcomponents#httpclient;4.2.3 {compile=[compile(*), master(*)], runtime=[runtime(*)], test=[runtime(*), master(*)]} => dependency: org.apache.httpcomponents#httpclient;4.2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)], test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-codec#commons-codec;1.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-codec#commons-codec;1.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-io#commons-io;2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
@@ -5188,7 +5099,7 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;14.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;14.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;14.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies xalan#serializer;2.7.1->xml-apis#xml-apis;1.4.01 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies xalan#serializer;2.7.1->xml-apis#xml-apis;1.4.01 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies xalan#serializer;2.7.1->xml-apis#xml-apis;1.3.04 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies xalan#serializer;2.7.1->xml-apis#xml-apis;1.4.01 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.12->commons-collections#commons-collections;3.2.1 [compile->master(*)][0m
@@ -5200,9 +5111,9 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;14.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;14.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;14.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.12->commons-collections#commons-collections;3.2.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.12->org.apache.commons#commons-lang3;3.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.apache.httpcomponents#httpclient;4.2.3 {compile=[compile(*), master(*)], runtime=[runtime(*)], test=[runtime(*), master(*)]} => dependency: org.apache.httpcomponents#httpclient;4.2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)], test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-codec#commons-codec;1.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-codec#commons-codec;1.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
@@ -5304,7 +5215,7 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;14.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: com.google.guava#guava;14.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.12->net.sourceforge.cssparser#cssparser;0.9.9 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.cssparser#cssparser;0.9.9->org.w3c.css#sac;1.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.cssparser#cssparser;0.9.9->org.w3c.css#sac;1.3 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.apache.httpcomponents#httpclient;4.2.3 {compile=[compile(*), master(*)], runtime=[runtime(*)], test=[runtime(*), master(*)]} => dependency: org.apache.httpcomponents#httpclient;4.2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)], test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-codec#commons-codec;1.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-codec#commons-codec;1.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-io#commons-io;2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
@@ -5609,7 +5520,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.2.1->commons-logging#commons-logging;1.1.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.2.1->commons-codec#commons-codec;1.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.2.1->commons-codec#commons-codec;1.6 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.10 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.10 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.32.0->org.apache.commons#commons-exec;1.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.32.0->org.apache.commons#commons-exec;1.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
@@ -5639,7 +5550,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies xalan#serializer;2.7.1->xml-apis#xml-apis;1.4.01 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.12->commons-collections#commons-collections;3.2.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.12->commons-collections#commons-collections;3.2.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.12->org.apache.commons#commons-lang3;3.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.12->org.apache.commons#commons-lang3;3.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.12->org.apache.httpcomponents#httpclient;4.2.1 [runtime->runtime(*)][0m
@@ -5736,7 +5647,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for todolist#todolist_2.10;1.0-SNAPSHOT [docs][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies todolist#todolist_2.10;1.0-SNAPSHOT->com.typesafe.play#play-docs_2.10;2.2.6 [docs->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play-docs_2.10;2.2.6 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@37651cf[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2c6b753[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#play-docs_2.10;2.2.6[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.play#play-docs_2.10;2.2.6[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe.play#play-docs_2.10;2.2.6 in sbt-chain[0m
@@ -6340,7 +6251,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.3!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.3!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 38906ms :: artifacts dl 215ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 18046ms :: artifacts dl 124ms[0m
 [0m[[0mdebug[0m] [0m	report for todolist#todolist_2.10;1.0-SNAPSHOT compile produced in /Users/florianeMac/awi/target/resolution-cache/reports/todolist-todolist_2.10-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for todolist#todolist_2.10;1.0-SNAPSHOT runtime produced in /Users/florianeMac/awi/target/resolution-cache/reports/todolist-todolist_2.10-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for todolist#todolist_2.10;1.0-SNAPSHOT test produced in /Users/florianeMac/awi/target/resolution-cache/reports/todolist-todolist_2.10-test.xml[0m
@@ -6354,5 +6265,5 @@
 [0m[[0mdebug[0m] [0m	report for todolist#todolist_2.10;1.0-SNAPSHOT docs produced in /Users/florianeMac/awi/target/resolution-cache/reports/todolist-todolist_2.10-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for todolist#todolist_2.10;1.0-SNAPSHOT pom produced in /Users/florianeMac/awi/target/resolution-cache/reports/todolist-todolist_2.10-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for todolist#todolist_2.10;1.0-SNAPSHOT scala-tool produced in /Users/florianeMac/awi/target/resolution-cache/reports/todolist-todolist_2.10-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (38906ms resolve - 215ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (18046ms resolve - 124ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

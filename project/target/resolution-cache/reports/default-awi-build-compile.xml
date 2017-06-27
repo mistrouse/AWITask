@@ -9,7 +9,7 @@
 		extra-sbtVersion="0.13"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20170626211748"/>
+		date="20170627220541"/>
 	<dependencies>
 		<module organisation="org.scala-sbt" name="sbt-core-next">
 			<revision name="0.1.1" status="integration" pubdate="20150209153731" resolver="sbt-chain" artresolver="sbt-chain" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="31">
@@ -339,7 +339,7 @@
 		<module organisation="org.avaje.ebeanorm" name="avaje-ebeanorm-agent">
 			<revision name="3.2.1" status="release" pubdate="20130418125719" resolver="public" artresolver="public" homepage="http://www.avaje.org" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="17">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="2260" time="204" location="/Users/florianeMac/.ivy2/cache/org.avaje.ebeanorm/avaje-ebeanorm-agent/ivy-3.2.1.xml" searched="true" original-local-location="/Users/florianeMac/.ivy2/cache/org.avaje.ebeanorm/avaje-ebeanorm-agent/ivy-3.2.1.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/avaje/ebeanorm/avaje-ebeanorm-agent/3.2.1/avaje-ebeanorm-agent-3.2.1.pom"/>
+				<metadata-artifact status="successful" details="" size="2260" time="267" location="/Users/florianeMac/.ivy2/cache/org.avaje.ebeanorm/avaje-ebeanorm-agent/ivy-3.2.1.xml" searched="true" original-local-location="/Users/florianeMac/.ivy2/cache/org.avaje.ebeanorm/avaje-ebeanorm-agent/ivy-3.2.1.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/avaje/ebeanorm/avaje-ebeanorm-agent/3.2.1/avaje-ebeanorm-agent-3.2.1.pom"/>
 				<caller organisation="com.typesafe.play" name="sbt-plugin" conf="compile" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="2.2.6"/>
 				<artifacts>
 					<artifact name="avaje-ebeanorm-agent" type="jar" ext="jar" status="no" details="" size="182383" time="0" location="/Users/florianeMac/.ivy2/cache/org.avaje.ebeanorm/avaje-ebeanorm-agent/jars/avaje-ebeanorm-agent-3.2.1.jar">
@@ -374,7 +374,7 @@
 		</module>
 		<module organisation="com.google.guava" name="guava">
 			<revision name="14.0.1" status="release" pubdate="20130315005719" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master" position="15">
-				<metadata-artifact status="successful" details="" size="5376" time="294" location="/Users/florianeMac/.ivy2/cache/com.google.guava/guava/ivy-14.0.1.xml" searched="true" original-local-location="/Users/florianeMac/.ivy2/cache/com.google.guava/guava/ivy-14.0.1.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1.pom"/>
+				<metadata-artifact status="successful" details="" size="5376" time="582" location="/Users/florianeMac/.ivy2/cache/com.google.guava/guava/ivy-14.0.1.xml" searched="true" original-local-location="/Users/florianeMac/.ivy2/cache/com.google.guava/guava/ivy-14.0.1.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1.pom"/>
 				<caller organisation="com.google.javascript" name="closure-compiler" conf="default, compile, runtime, master" rev="14.0.1" rev-constraint-default="14.0.1" rev-constraint-dynamic="14.0.1" callerrev="v20130603"/>
 				<caller organisation="com.typesafe.play" name="sbt-plugin" conf="compile" rev="14.0.1" rev-constraint-default="14.0.1" rev-constraint-dynamic="14.0.1" callerrev="2.2.6"/>
 				<artifacts>
